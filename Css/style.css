@@ -1,0 +1,209 @@
+@media screen and (min-width: 1400px) {
+    header {
+        margin: 0;
+        display: block;
+
+        width: 100vw;
+        height: 150px;
+        background-color: rgba(94, 41, 154, .8);
+    }
+
+    header .container {
+        position: relative;
+    }
+
+    header .header-black {
+
+        display: block;
+        width: 100vw;
+        height: 40px;
+        background-color: #000;
+    }
+
+    header .header-black li {
+        background-image: url(/Images/clubs.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 4px 8px;
+    }
+
+    .row a {
+        color: #FFF;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    header .header-black li.club-01 {
+        background-position: 0px, 0px;
+    }
+
+    header .header-black li.club-02 {
+        background-position: -48px, 0px;
+    }
+
+    header .header-black li.club-03 {
+        background-position: -95px, 0px;
+    }
+
+    header .header-black li.club-04 {
+        background-position: -140px, 0px;
+    }
+
+    header .header-black li.club-05 {
+        background-position: -189px, 0px;
+    }
+
+    header .header-black li.club-06 {
+        background-position: -238px, 0px;
+    }
+
+    header .header-black li.club-07 {
+        background-position: -287px, 0px;
+    }
+
+    header .header-black li.club-08 {
+        background-position: -335px, 0px;
+    }
+
+    header .header-black li.club-09 {
+        background-position: -380px, 0px;
+    }
+
+    header .header-black li.club-10 {
+        background-position: -430px, 0px;
+    }
+
+    header .header-black li.club-11 {
+        background-position: -480px, 0px;
+    }
+
+    header .header-black li.club-12 {
+        background-position: -528px, 0px;
+    }
+
+    header .header-black li.club-13 {
+        background-position: -578px, 0px;
+    }
+
+    header .header-black li.club-14 {
+        background-position: -628px, 0px;
+    }
+
+    header .header-black li.club-15 {
+        background-position: -675px, 0px;
+    }
+
+    header .header-black li.club-16 {
+        background-position: -722px, 0px;
+    }
+
+    header .header-black li.club-17 {
+        background-position: -764px, 0px;
+    }
+
+    header .header-black li.club-18 {
+        background-position: -806px, 0px;
+    }
+
+    header .header-black li.club-19 {
+        background-position: -855px, 0px;
+    }
+
+    header .header-black li.club-20 {
+        background-position: -900px, 0px;
+    }
+
+    header .header-black li.club-21 {
+        background-position: -949px, 0px;
+    }
+
+    header .header-black li.club-22 {
+        background-position: -998px, 0px;
+    }
+
+    .row a {
+        transition: all .3s;
+    }
+
+    header .header-black li a {
+        width: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    header .clubs-logos {
+        position: absolute;
+        right: 15px;
+
+    }
+
+    #logo-header {
+        position: absolute;
+        top: 16px;
+    }
+
+    .nav-list-ul {
+        margin-top: 60px;
+        position: absolute;
+        right: 232px;
+    }
+
+    .nav-list-ul a:hover {
+        font-size: 1.4em;
+    }
+
+    ul.search {
+        position: absolute;
+        bottom: -108px;
+        right: -20px;
+    }
+
+    .row ul li {
+        display: inline-block;
+        margin: 0 15px;
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    .row input {
+        background-image: linear-gradient(rgba(140, 0, 255, 0.8), rgba(49, 0, 82, 0.8));
+        border: none;
+    }
+
+    .row button {
+        position: absolute;
+        margin: 2px -40px;
+    }
+
+    .row input::placeholder {
+        color: #FFF;
+    }
+
+    #banner {
+        width: 100vw;
+        height: 1080px;
+        position: relative;
+        top: -290px;
+        background-image: url(/Images/banner2.png);
+        background-color: red;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        z-index: -2;
+    }
+    #banner h1{
+        position: absolute;
+        top: 600px;;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 85px;
+        color: #FFF;
+        text-shadow: 3px 3px 2px black;
+        margin-left: 25px;
+
+    }
+    #banner h1 small{
+        font-weight: lighter;
+        display: block;
+        font-size: 42px;
+    }
+}
