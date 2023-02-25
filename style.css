@@ -1,0 +1,477 @@
+@media screen and (min-width: 1400px) {
+    body{
+        position: static;
+    }
+    header {
+        margin: 0;
+        display: block;
+
+        width: 100%;
+        height: 150px;
+        background-color: rgba(94, 41, 154, .8);
+    }
+
+    header .container {
+        position: relative;
+    }
+
+    header .header-black {
+
+        display: block;
+        width: 100%;
+        height: 40px;
+        background-color: #000;
+    }
+
+    header .header-black li {
+        background-image: url(/Images/clubs.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 4px 8px;
+    }
+
+    .row a {
+        color: #FFF;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    header .header-black li.club-01 {
+        background-position: 0px, 0px;
+    }
+
+    header .header-black li.club-02 {
+        background-position: -48px, 0px;
+    }
+
+    header .header-black li.club-03 {
+        background-position: -95px, 0px;
+    }
+
+    header .header-black li.club-04 {
+        background-position: -140px, 0px;
+    }
+
+    header .header-black li.club-05 {
+        background-position: -189px, 0px;
+    }
+
+    header .header-black li.club-06 {
+        background-position: -238px, 0px;
+    }
+
+    header .header-black li.club-07 {
+        background-position: -287px, 0px;
+    }
+
+    header .header-black li.club-08 {
+        background-position: -335px, 0px;
+    }
+
+    header .header-black li.club-09 {
+        background-position: -380px, 0px;
+    }
+
+    header .header-black li.club-10 {
+        background-position: -430px, 0px;
+    }
+
+    header .header-black li.club-11 {
+        background-position: -480px, 0px;
+    }
+
+    header .header-black li.club-12 {
+        background-position: -528px, 0px;
+    }
+
+    header .header-black li.club-13 {
+        background-position: -578px, 0px;
+    }
+
+    header .header-black li.club-14 {
+        background-position: -628px, 0px;
+    }
+
+    header .header-black li.club-15 {
+        background-position: -675px, 0px;
+    }
+
+    header .header-black li.club-16 {
+        background-position: -722px, 0px;
+    }
+
+    header .header-black li.club-17 {
+        background-position: -764px, 0px;
+    }
+
+    header .header-black li.club-18 {
+        background-position: -806px, 0px;
+    }
+
+    header .header-black li.club-19 {
+        background-position: -855px, 0px;
+    }
+
+    header .header-black li.club-20 {
+        background-position: -900px, 0px;
+    }
+
+    header .header-black li.club-21 {
+        background-position: -949px, 0px;
+    }
+
+    header .header-black li.club-22 {
+        background-position: -998px, 0px;
+    }
+
+    .row a {
+        transition: all .3s;
+    }
+
+    header .header-black li a {
+        width: 32px;
+        height: 32px;
+        display: block;
+    }
+
+    header .clubs-logos {
+        position: absolute;
+        right: 15px;
+
+    }
+
+    #logo-header {
+        position: absolute;
+        top: 16px;
+    }
+
+    .nav-list-ul {
+        margin-top: 60px;
+        position: absolute;
+        right: 232px;
+    }
+
+    .nav-list-ul a:hover {
+        font-size: 1.4em;
+    }
+
+    ul.search {
+        position: absolute;
+        bottom: -108px;
+        right: -20px;
+    }
+    
+    #search-input{
+        /* background-color: red; */
+        width: 200px;
+        transition: all 1s;
+    }
+   
+
+    #search-input.efeito-focus{
+        width: 500px;
+       
+    }
+
+    .row ul li {
+        display: inline-block;
+        margin: 0 15px;
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    .row input {
+        background-image: linear-gradient(rgba(140, 0, 255, 0.8), rgba(49, 0, 82, 0.8));
+        border: none;
+    }
+
+    .row button {
+        position: absolute;
+        margin: 2px -40px;
+    }
+
+    .row input::placeholder {
+        color: #FFF;
+    }
+    
+
+    #banner {
+        background-color: red;
+        width: 100%;
+        height: 1080px;
+        position: relative;
+        top: -290px;
+        background-image: url(/Images/banner2.png);
+        background-repeat: no-repeat;
+        background-position: 0%;
+        z-index: -2;
+    }
+
+    #banner h1 {
+        transition:all 1s;
+        position: relative;
+        top: 600px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 85px;
+        color: #FFF;
+        text-shadow: 3px 3px 2px black;
+        margin-left: 25px;
+
+    }
+    #banner h1 small {
+        font-weight: lighter;
+        display: block;
+        font-size: 42px;
+    }
+
+    #latest {
+        position: relative;
+        margin-top: -150px;
+    }
+    #latest.margin-top-videos{
+        margin-top: 30px;
+    }
+
+    #latest h2 {
+        font-family: 'OpenSans';
+        color: #5e2799;
+        text-align: center;
+        font-size: 48px;
+        text-transform: uppercase;
+
+    }
+
+    #latest h3 {
+        font-family: 'OpenSans';
+        font-size: 24px;
+        color: #5e2799;
+        text-align: start;
+    }
+
+    #latest hr {
+        border: #ffd560 solid 8px;
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+
+    #latest time {
+        display: block;
+        color: #A7A7A7;
+        text-align:start ;
+    }
+
+    .thumbnails div {
+        padding: 0;
+        text-align: center;
+        
+    }
+    .thumbnails .item-inner img{
+        width: 100%;
+    }
+    .thumbnails .item-inner{
+      padding: 10px;
+    }
+    .owl-theme .owl-controls .owl-buttons div{
+        background-color: #5e2799
+    }
+    .owl-theme .owl-controls .owl-page span{
+        background-color: #5e2799;
+    }
+    /* .text-news:nth-child(2) {
+        text-align: start;
+        margin-left: 23px;
+    }
+    .text-news h3 {
+        width: 280px;
+        height: fit-content;
+        text-align: start;
+    } */
+
+    .status {
+        margin-top: 30px;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-color: #5e299a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .status p {
+        padding: 0;
+        margin: 0;
+        font-size: 58px;
+        color: #fde192;
+        font-family: "OpenSans";
+        font-weight: lighter;
+    }
+
+    .status small {
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+        font-family: "OpenSans";
+        color: #FFF;
+        text-transform: uppercase;
+    }
+
+    .call-to-action h4 {
+        color: #5e299a;
+        font-family: "OpenSans";
+        font-weight: lighter;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 200px;
+
+    }
+
+    .call-to-action p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .call-to-action hr {
+        border: #ffd560 solid 8px;
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+
+    .call-to-action {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .call-to-action .buttons {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .call-to-action .buttons button {
+        margin: 0 80px;
+        width: 200px;
+    }
+     footer{
+        width: 100%;
+        position: static;
+        bottom:0;
+     }
+    .footer-black {
+        width: 100%;
+        height: 205px;
+        margin: 0;
+        margin-top: 30px;
+        background-color: #171f26;
+
+    }
+    .footer-black p{
+        font-size: 14px;
+    }
+    .footer-black time{
+        color: #fde192;
+        border-bottom: 1px solid #5e299a;
+    }
+
+    .footer-black h4 {
+        color: #FFF;
+        border-bottom: 1px solid rgba(255, 213, 96, .5);
+        padding: 5px 0 10px;
+
+    }
+
+    .footer-black ul li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+
+    .footer-black .logo-orlando {
+        background-image: url(/Images/orlando-logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-right: 1px solid rgba(124, 110, 72, 0.3);
+
+    }
+
+    .footer-copy {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: #11171d;
+    }
+
+    .copy-right {
+        position: absolute;
+        left: 15px;
+        line-height: 60px;
+        color: rgb(190, 133, 255)
+    }
+   
+
+    .signature {
+        position: absolute;
+        right: 15px;
+        line-height: 60px;
+        color: rgb(190, 133, 255);
+        margin-bottom:0;
+
+    }
+    p{
+        margin-bottom: 0;
+    }
+
+    .footer-copy p:hover {
+        color: #FFF;
+        cursor: pointer;
+    }
+
+    footer address,
+    p,
+    time,
+    a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .links ul li {
+        display: flex;
+        padding-top: 8px;
+    }
+
+    .links ul li a:hover {
+        color: #ffd560;
+    }
+
+    .links i {
+        margin-right: 8px;
+    }
+
+    /* jQuery*/
+    #banner h1.efeito{
+        color: red;
+        font-size: 2em;
+        
+    }
+    .video-row{
+        display: flex;
+        justify-content: center;
+        width:100%;
+    }
+    .video-row video{
+        width: 600px;
+    }
+   
+}
