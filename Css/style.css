@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+
     body{
         position: static;
     }
@@ -474,5 +474,3 @@
     .video-row video{
         width: 600px;
     }
-   
-}
